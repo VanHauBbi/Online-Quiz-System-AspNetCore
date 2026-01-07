@@ -10,12 +10,10 @@
 ---
 
 ## 📸 Demo Giao diện (Screenshots)
-*(Hãy thay thế dòng này bằng hình ảnh thực tế của dự án. Ví dụ: Trang chủ, Trang làm bài thi, Trang quản trị)*
-| Trang Chủ | Trang Làm Bài Thi |
+| Trang Chủ | Trang Quản trị |
 |:---:|:---:|
-| <img src="link_anh_trang_chu" alt="Home Page" width="400"/> | <img src="link_anh_lam_bai" alt="Quiz Page" width="400"/> |
+| <img src="https://github.com/user-attachments/assets/ef8022db-368a-4935-9e2b-75a28198df07" alt="Home Page" width="400"/> | <img src="https://github.com/user-attachments/assets/5be57ceb-5d5f-4245-bdad-d835896a7aeb" alt="Quiz Page" width="400"/> |
 
----
 
 ## 🛠 Công nghệ & Kỹ thuật (Tech Stack)
 
@@ -111,16 +109,18 @@ Nhấn tổ hợp phím **F5** hoặc nút ▶ Run trên thanh công cụ.
 
 Trình duyệt sẽ mở ra trang chủ.
 
-Tài khoản Admin mặc định : admin / Admin123 (Bạn tự cập nhật dòng này theo code của bạn).
+Tài khoản Admin mặc định: 
+Admin: Admin / 123
+User: Admin2 / 
 
 ## 🗺 Lộ trình phát triển (Roadmap)
-[ ] Thêm tính năng Import câu hỏi từ file Excel.
+* Thêm tính năng Import câu hỏi từ file Excel.
 
-[ ] Xuất bảng điểm ra file PDF/Excel.
+* Xuất bảng điểm ra file PDF/Excel.
 
-[ ] Thêm dạng câu hỏi "Điền vào chỗ trống".
+* Thêm dạng câu hỏi "Điền vào chỗ trống".
 
-[ ] Tối ưu giao diện Mobile.
+* Tối ưu giao diện Mobile
 
 ## 📞 Liên hệ (Contact)
 Nếu bạn thấy dự án này thú vị hoặc muốn trao đổi thêm về kỹ thuật, hãy liên hệ với mình:
@@ -129,7 +129,7 @@ Author: Nguyễn Văn Hậu
 
 Email: haunguyenen48@gmail.com
 
-GitHub: github.com/VanHauBbi
+GitHub: https://github.com/VanHauBbi
 
 Email: [haunguyenen48@gmail.com](mailto:haunguyenen48@gmail.com)
 GitHub: [https://github.com/VanHauBbi](https://github.com/VanHauBbi)
