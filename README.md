@@ -81,34 +81,39 @@ Hệ thống bao gồm các thực thể (Entities) chính:
 Mở Git Bash hoặc Terminal và chạy lệnh:
 ```bash
 git clone https://github.com/VanHauBbi/Online-Quiz-System-AspNetCore.git
-Bước 2: Cấu hình Database
-Mở file appsettings.json.
+```
+
+### Bước 2: Cấu hình Database
+Mở file `appsettings.json.`
 
 Tìm phần ConnectionStrings. Thay đổi Server Name thành tên Server của bạn:
 
-JSON
+```json
 
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=OnlineQuizDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
 }
-Bước 3: Cập nhật Cơ sở dữ liệu (Migrations)
+```
+
+### Bước 3: Cập nhật Cơ sở dữ liệu (Migrations)
 Mở dự án bằng Visual Studio 2022.
 
-Vào menu: Tools > NuGet Package Manager > Package Manager Console.
+Vào menu: `Tools > NuGet Package Manager > Package Manager Console.`
 
 Chạy lệnh sau để khởi tạo Database:
 
-PowerShell
-
+```PowerShell
 Update-Database
-Bước 4: Khởi chạy
-Nhấn tổ hợp phím F5 hoặc nút ▶ Run trên thanh công cụ.
+```
+
+### Bước 4: Khởi chạy
+Nhấn tổ hợp phím **F5** hoặc nút ▶ Run trên thanh công cụ.
 
 Trình duyệt sẽ mở ra trang chủ.
 
-Tài khoản Admin mặc định (nếu có): admin@gmail.com / Admin@123 (Bạn tự cập nhật dòng này theo code của bạn).
+Tài khoản Admin mặc định : admin / Admin123 (Bạn tự cập nhật dòng này theo code của bạn).
 
-🗺 Lộ trình phát triển (Roadmap)
+## 🗺 Lộ trình phát triển (Roadmap)
 [ ] Thêm tính năng Import câu hỏi từ file Excel.
 
 [ ] Xuất bảng điểm ra file PDF/Excel.
@@ -117,7 +122,7 @@ Tài khoản Admin mặc định (nếu có): admin@gmail.com / Admin@123 (Bạn
 
 [ ] Tối ưu giao diện Mobile.
 
-📞 Liên hệ (Contact)
+## 📞 Liên hệ (Contact)
 Nếu bạn thấy dự án này thú vị hoặc muốn trao đổi thêm về kỹ thuật, hãy liên hệ với mình:
 
 Author: Nguyễn Văn Hậu
@@ -125,3 +130,6 @@ Author: Nguyễn Văn Hậu
 Email: haunguyenen48@gmail.com
 
 GitHub: github.com/VanHauBbi
+
+Email: [haunguyenen48@gmail.com](mailto:haunguyenen48@gmail.com)
+GitHub: [https://github.com/VanHauBbi](https://github.com/VanHauBbi)
